@@ -32,7 +32,7 @@ Returns data for the top ~1000 Becoswap pairs, sorted by reserves.
 }
 ```
 
-## [`/v2/tokens`](https://api.becoswap.info/api/v1/tokens)
+## [`/v1/tokens`](https://api.becoswap.info/api/v1/tokens)
 
 Returns the tokens in the top ~1000 pairs on Becoswap, sorted by reserves.
 
