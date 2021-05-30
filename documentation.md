@@ -6,13 +6,13 @@ The canonical WBNB address used by the Becoswap interface is `0xbb4CdB9CBd36B01b
 
 Results are cached for 5 minutes (or 300 seconds).
 
-## [`/v1/summary`](https://api.becoswap.info/api/v1/summary)
+## [`/summary`](https://api.becoswap.info/api/summary)
 
 Returns data for the top ~1000 Becoswap pairs, sorted by reserves. 
 
 ### Request
 
-`GET https://api.becoswap.info/api/v2/summary`
+`GET https://api.becoswap.info/api/summary`
 
 ### Response
 
@@ -32,13 +32,13 @@ Returns data for the top ~1000 Becoswap pairs, sorted by reserves.
 }
 ```
 
-## [`/v1/tokens`](https://api.becoswap.info/api/v1/tokens)
+## [`/tokens`](https://api.becoswap.info/api/tokens)
 
 Returns the tokens in the top ~1000 pairs on Becoswap, sorted by reserves.
 
 ### Request
 
-`GET https://api.becoswap.info/api/v1/tokens`
+`GET https://api.becoswap.info/api/tokens`
 
 ### Response
 
@@ -57,13 +57,13 @@ Returns the tokens in the top ~1000 pairs on Becoswap, sorted by reserves.
 }
 ```
 
-## [`/v1/tokens/0x...`](https://api.becoswap.info/api/v1/tokens/0x8fe4d28476cdd43d36a12eb47dc3243c1925f263)
+## [`/tokens/0x...`](https://api.becoswap.info/api/tokens/0x8fe4d28476cdd43d36a12eb47dc3243c1925f263)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.becoswap.info/api/v1/tokens/0x8fe4d28476cdd43d36a12eb47dc3243c1925f263`
+`GET https://api.becoswap.info/api/tokens/0x8fe4d28476cdd43d36a12eb47dc3243c1925f263`
 
 ### Response
 
@@ -79,13 +79,13 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/v1/pairs`](https://api.becoswap.info/api/v1/pairs)
+## [`/pairs`](https://api.becoswap.info/api/pairs)
 
 Returns data for the top ~1000 Becoswap pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.becoswap.info/api/v1/pairs`
+`GET https://api.becoswap.info/api/pairs`
 
 ### Response
 
